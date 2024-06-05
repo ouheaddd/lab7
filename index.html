@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css">
+</head>
+<body>
+
+    <div class="zvit">
+        <h1> Крамар Микита ІО-1613 Лабораторна робота 7</h1>
+        <h2>Тема:    WEB-СХОВИЩЕ. WEB STORAGE API. МОДУЛЬНОСТЬ  КОДУ. СТВОРЕННЯ МОДАЛЬНОГО ВІКНА. ДЕЛЕГУВАННЯ ПОДІЙ.
+            </h2>
+        <h2>Мета: придбати практичні навички роботи створення модального вікна; повторити процес створення макету, зокрема створення макету галереї довільних зображень; закріпити навички роботи з делегуванням подій.                  
+            </h2>
+    </div>
+
+    <header>
+        <h1>Галерея</h1>
+    </header>
+    <main>
+        <ul class="gallery">
+        <li class="gallery__item">
+            <img class="gallery__image" src="gallery/images/pic1-small.jpg" data-source="gallery/images/pic1-full-size.jpg" alt="Картина 1">
+        </li>
+        <li class="gallery__item">
+            <img class="gallery__image" src="gallery/images/pic2-small.jpg" data-source="gallery/images/pic2-full-size.jpg" alt="Картина 2">
+        </li>
+
+        <li class="gallery__item">
+            <img class="gallery__image" src="gallery/images/pic3-small.jpg" data-source="gallery/images/pic3-full-size.jpg" alt="Картина 3">
+        
+        </li>
+        <li class="gallery__item">
+            <img class="gallery__image" src="gallery/images/pic4-small.jpg" data-source="gallery/images/pic4-full-size.jpg" alt="Картина 4">
+        
+        </li>
+        <li class="gallery__item">
+            <img class="gallery__image" src="gallery/images/pic5-small.jpg" data-source="gallery/images/pic5-full-size.jpg" alt="Картина 5">
+        
+        </li>
+        <li class="gallery__item">
+            <img class="gallery__image" src="gallery/images/pic6-small.jpg" data-source="gallery/images/pic6-full-size.jpg" alt="Картина 6">
+        
+        </li>
+        <li class="gallery__item">
+            <img class="gallery__image" src="gallery/images/pic7-small.jpg" data-source="gallery/images/pic7-full-size.jpg" alt="Картина 7">
+        
+        </li>
+        <li class="gallery__item">
+            <img class="gallery__image" src="gallery/images/pic8-small.jpg" data-source="gallery/images/pic8-full-size.jpg" alt="Картина 8">
+        
+        </li>
+    </ul>
+    </main>
+
+    <section>
+        <h1>Завдання 2</h1>
+        <form action="" class="feedback-form" autocomplete="off">
+            <label for="">
+                Email
+                <input type="email" name="email" autofocus>
+            </label>
+            <label for="">
+                Message
+                <textarea name="message" id=""></textarea>
+            </label>
+            <button type="submit">submit</button>
+        </form>
+    </section>
+
+    <script src="2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
+    <script src="gallery/gallery.js"></script>
+</body>
+</html>
+
